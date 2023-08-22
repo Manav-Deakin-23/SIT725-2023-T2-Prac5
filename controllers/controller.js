@@ -15,6 +15,8 @@ const insertcatintoDB = (req, res) => {
 
 }
 
+// implement something here
+
 const getcatfromDB = (req, res) => {
     collection.getAllCats((err, result) => {
         if (!err) {
